@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2A843F2044147F0064E86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A843E2044147F0064E86C /* AppDelegate.m */; };
+		9D2A84472044147F0064E86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2A84462044147F0064E86C /* Assets.xcassets */; };
+		9D2A844D2044147F0064E86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A844C2044147F0064E86C /* main.m */; };
+		9D2A84572044147F0064E86C /* RNGitTrendingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A84562044147F0064E86C /* RNGitTrendingTests.m */; };
+		9D2A84622044147F0064E86C /* RNGitTrendingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A84612044147F0064E86C /* RNGitTrendingUITests.m */; };
+		9D2A84E22044FAB40064E86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2A84E12044FAB40064E86C /* LaunchScreen.storyboard */; };
+		9F780257C3B18B7B51FAE633 /* libPods-RNGitTrending.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F39E9D60382E26E28973C8 /* libPods-RNGitTrending.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D2A84532044147F0064E86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2A84322044147F0064E86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2A84392044147F0064E86C;
+			remoteInfo = RNGitTrending;
+		};
+		9D2A845E2044147F0064E86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2A84322044147F0064E86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2A84392044147F0064E86C;
+			remoteInfo = RNGitTrending;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0A5B4EBEB1D9121775ACF5 /* Pods-RNGitTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGitTrending.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNGitTrending/Pods-RNGitTrending.debug.xcconfig"; sourceTree = "<group>"; };
+		97F39E9D60382E26E28973C8 /* libPods-RNGitTrending.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGitTrending.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2A843A2044147F0064E86C /* RNGitTrending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNGitTrending.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2A843D2044147F0064E86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D2A843E2044147F0064E86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D2A84462044147F0064E86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D2A844B2044147F0064E86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2A844C2044147F0064E86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D2A84522044147F0064E86C /* RNGitTrendingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNGitTrendingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2A84562044147F0064E86C /* RNGitTrendingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGitTrendingTests.m; sourceTree = "<group>"; };
+		9D2A84582044147F0064E86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2A845D2044147F0064E86C /* RNGitTrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNGitTrendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2A84612044147F0064E86C /* RNGitTrendingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGitTrendingUITests.m; sourceTree = "<group>"; };
+		9D2A84632044147F0064E86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2A84E12044FAB40064E86C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A23A55394382E939A6DD0C /* Pods-RNGitTrending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGitTrending.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNGitTrending/Pods-RNGitTrending.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D2A84372044147F0064E86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F780257C3B18B7B51FAE633 /* libPods-RNGitTrending.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A844F2044147F0064E86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A845A2044147F0064E86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3E38E854D296DE9B1E3D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97F39E9D60382E26E28973C8 /* libPods-RNGitTrending.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2A84312044147F0064E86C = {
+			isa = PBXGroup;
+			children = (
+				9D2A843C2044147F0064E86C /* RNGitTrending */,
+				9D2A84552044147F0064E86C /* RNGitTrendingTests */,
+				9D2A84602044147F0064E86C /* RNGitTrendingUITests */,
+				9D2A843B2044147F0064E86C /* Products */,
+				D5DC85B4FC7EF3F5108846A1 /* Pods */,
+				5D3E38E854D296DE9B1E3D9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2A843B2044147F0064E86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A843A2044147F0064E86C /* RNGitTrending.app */,
+				9D2A84522044147F0064E86C /* RNGitTrendingTests.xctest */,
+				9D2A845D2044147F0064E86C /* RNGitTrendingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2A843C2044147F0064E86C /* RNGitTrending */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A843D2044147F0064E86C /* AppDelegate.h */,
+				9D2A843E2044147F0064E86C /* AppDelegate.m */,
+				9D2A84462044147F0064E86C /* Assets.xcassets */,
+				9D2A84E12044FAB40064E86C /* LaunchScreen.storyboard */,
+				9D2A844B2044147F0064E86C /* Info.plist */,
+				9D2A844C2044147F0064E86C /* main.m */,
+			);
+			path = RNGitTrending;
+			sourceTree = "<group>";
+		};
+		9D2A84552044147F0064E86C /* RNGitTrendingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A84562044147F0064E86C /* RNGitTrendingTests.m */,
+				9D2A84582044147F0064E86C /* Info.plist */,
+			);
+			path = RNGitTrendingTests;
+			sourceTree = "<group>";
+		};
+		9D2A84602044147F0064E86C /* RNGitTrendingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A84612044147F0064E86C /* RNGitTrendingUITests.m */,
+				9D2A84632044147F0064E86C /* Info.plist */,
+			);
+			path = RNGitTrendingUITests;
+			sourceTree = "<group>";
+		};
+		D5DC85B4FC7EF3F5108846A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A5B4EBEB1D9121775ACF5 /* Pods-RNGitTrending.debug.xcconfig */,
+				A5A23A55394382E939A6DD0C /* Pods-RNGitTrending.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D2A84392044147F0064E86C /* RNGitTrending */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2A84662044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrending" */;
+			buildPhases = (
+				84AA50DDF1E993918893F006 /* [CP] Check Pods Manifest.lock */,
+				9D2A84362044147F0064E86C /* Sources */,
+				9D2A84372044147F0064E86C /* Frameworks */,
+				9D2A84382044147F0064E86C /* Resources */,
+				05623F333E0B3D90B3D9440A /* [CP] Embed Pods Frameworks */,
+				A7B770B88B36C24D7DBB969D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNGitTrending;
+			productName = RNGitTrending;
+			productReference = 9D2A843A2044147F0064E86C /* RNGitTrending.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D2A84512044147F0064E86C /* RNGitTrendingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2A84692044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrendingTests" */;
+			buildPhases = (
+				9D2A844E2044147F0064E86C /* Sources */,
+				9D2A844F2044147F0064E86C /* Frameworks */,
+				9D2A84502044147F0064E86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D2A84542044147F0064E86C /* PBXTargetDependency */,
+			);
+			name = RNGitTrendingTests;
+			productName = RNGitTrendingTests;
+			productReference = 9D2A84522044147F0064E86C /* RNGitTrendingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D2A845C2044147F0064E86C /* RNGitTrendingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2A846C2044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrendingUITests" */;
+			buildPhases = (
+				9D2A84592044147F0064E86C /* Sources */,
+				9D2A845A2044147F0064E86C /* Frameworks */,
+				9D2A845B2044147F0064E86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D2A845F2044147F0064E86C /* PBXTargetDependency */,
+			);
+			name = RNGitTrendingUITests;
+			productName = RNGitTrendingUITests;
+			productReference = 9D2A845D2044147F0064E86C /* RNGitTrendingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2A84322044147F0064E86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = huangzhifei;
+				TargetAttributes = {
+					9D2A84392044147F0064E86C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9D2A84512044147F0064E86C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D2A84392044147F0064E86C;
+					};
+					9D2A845C2044147F0064E86C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D2A84392044147F0064E86C;
+					};
+				};
+			};
+			buildConfigurationList = 9D2A84352044147F0064E86C /* Build configuration list for PBXProject "RNGitTrending" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D2A84312044147F0064E86C;
+			productRefGroup = 9D2A843B2044147F0064E86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D2A84392044147F0064E86C /* RNGitTrending */,
+				9D2A84512044147F0064E86C /* RNGitTrendingTests */,
+				9D2A845C2044147F0064E86C /* RNGitTrendingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D2A84382044147F0064E86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2A84472044147F0064E86C /* Assets.xcassets in Resources */,
+				9D2A84E22044FAB40064E86C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A84502044147F0064E86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A845B2044147F0064E86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05623F333E0B3D90B3D9440A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNGitTrending/Pods-RNGitTrending-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84AA50DDF1E993918893F006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNGitTrending-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B770B88B36C24D7DBB969D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNGitTrending/Pods-RNGitTrending-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D2A84362044147F0064E86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2A844D2044147F0064E86C /* main.m in Sources */,
+				9D2A843F2044147F0064E86C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A844E2044147F0064E86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2A84572044147F0064E86C /* RNGitTrendingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A84592044147F0064E86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2A84622044147F0064E86C /* RNGitTrendingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D2A84542044147F0064E86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2A84392044147F0064E86C /* RNGitTrending */;
+			targetProxy = 9D2A84532044147F0064E86C /* PBXContainerItemProxy */;
+		};
+		9D2A845F2044147F0064E86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2A84392044147F0064E86C /* RNGitTrending */;
+			targetProxy = 9D2A845E2044147F0064E86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D2A84642044147F0064E86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D2A84652044147F0064E86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2A84672044147F0064E86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0A5B4EBEB1D9121775ACF5 /* Pods-RNGitTrending.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native-splash-screen/ios",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+				);
+				INFOPLIST_FILE = RNGitTrending/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D2A84682044147F0064E86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A23A55394382E939A6DD0C /* Pods-RNGitTrending.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native-splash-screen/ios",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+				);
+				INFOPLIST_FILE = RNGitTrending/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D2A846A2044147F0064E86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				INFOPLIST_FILE = RNGitTrendingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrendingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNGitTrending.app/RNGitTrending";
+			};
+			name = Debug;
+		};
+		9D2A846B2044147F0064E86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				INFOPLIST_FILE = RNGitTrendingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrendingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNGitTrending.app/RNGitTrending";
+			};
+			name = Release;
+		};
+		9D2A846D2044147F0064E86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				INFOPLIST_FILE = RNGitTrendingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrendingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNGitTrending;
+			};
+			name = Debug;
+		};
+		9D2A846E2044147F0064E86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6E9Q4936R;
+				INFOPLIST_FILE = RNGitTrendingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzf.RNGitTrendingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNGitTrending;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D2A84352044147F0064E86C /* Build configuration list for PBXProject "RNGitTrending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2A84642044147F0064E86C /* Debug */,
+				9D2A84652044147F0064E86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2A84662044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2A84672044147F0064E86C /* Debug */,
+				9D2A84682044147F0064E86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2A84692044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrendingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2A846A2044147F0064E86C /* Debug */,
+				9D2A846B2044147F0064E86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2A846C2044147F0064E86C /* Build configuration list for PBXNativeTarget "RNGitTrendingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2A846D2044147F0064E86C /* Debug */,
+				9D2A846E2044147F0064E86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2A84322044147F0064E86C /* Project object */;
+}
