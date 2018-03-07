@@ -5,7 +5,10 @@ target 'RNGitTrending' do
 
 #for react native
 #如果你的RN版本 >= 0.42.0，请加入下面这行
-pod 'Yoga',  :path => '../node_modules/react-native/ReactCommon/yoga'
+    pod 'Yoga',  :path => '../node_modules/react-native/ReactCommon/yoga'
+# 这里的 :path 内容取决于 node_modules/ 实际所在的位置
+# 并且 pod 并没有把下面内容重新 copy 一份出来，只是设置了一些引用，所以如果使用git要把 node_modules/ 文件夹也上传
+# 不然其他人就需要安装 React 的环境，然后自己去 npm install 了
     pod 'React', :path => '../node_modules/react-native/', :subspecs => [
  	'Core',
   	'ART',
